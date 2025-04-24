@@ -1,6 +1,14 @@
 body{
     background-color: #fff;
 }
+.flex-box{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /*.accent-purple{
     color: #e9d0fa
@@ -9,3 +17,13 @@ body{
     color: #757575;
     color: #2d2d2d
 }*/
+.flex-box div{
+    margin: 0;
+}
+.flex-container{
+    flex-direction: column;
+}
+.barra-de-pesquisa{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
