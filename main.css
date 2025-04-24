@@ -1,13 +1,12 @@
 body{
-    background-color: #fff;
-}
-.flex-box{
-    width: 80%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 /*.accent-purple{
@@ -17,12 +16,18 @@ body{
     color: #757575;
     color: #2d2d2d
 }*/
-.flex-box div{
-    margin: 0;
+
+.div-wrapper{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    max-height: 600px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
 }
-.flex-container{
-    flex-direction: column;
-}
+
+
 .barra-de-pesquisa{
     background-color: #f4f4f4;
     border-radius: 5px;
