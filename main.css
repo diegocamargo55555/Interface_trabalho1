@@ -1,5 +1,4 @@
 body{
-    background-color: aqua;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,19 +15,33 @@ body{
     color: #757575;
     color: #2d2d2d
 }*/
-
+h1{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 40px;
+}
 .div-wrapper{
     background-color: #fff;
     width: 90%;
     max-width: 600px;
-    max-height: 600px;
     overflow-y: auto;
     border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
 }
 
 
 .barra-de-pesquisa{
     background-color: #f4f4f4;
     border-radius: 5px;
+}
+.barra-de-pesquisa p{
+    padding: 10px;
+}
+.roxo{
+    color: #a646ee;
+}
+hr{
+    color: #f4f4f4
+}
+.linha-divisoria{
+    display: inline-flex;
 }
