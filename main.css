@@ -14,7 +14,6 @@ body {
 }*/
 main {
     display: flex;
-    background-color: #757575;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -50,10 +49,18 @@ li::marker {
     border-radius: 5px;
 }
 
-.barra-de-pesquisa p {
+.barra-de-pesquisa input{
     padding: 10px;
 }
+input{
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    border: none;
 
+}
 .roxo {
     color: #a646ee;
 }
