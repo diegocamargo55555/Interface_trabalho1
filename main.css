@@ -1,8 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*.accent-purple{
@@ -13,62 +13,70 @@ body {
     color: #2d2d2d
 }*/
 main {
-  display: flex;
-  background-color: #757575;
-  width: 90%;
-}
-.flex-box {
-  display: flex;
+    display: flex;
+    background-color: #757575;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .flex-container {
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1em;
+    width: 50%;
+    border: 1px solid black;
 }
+
 h1 {
-  font-size: 40px;
-  margin: 0;
-  margin-top: 40px;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 40px;
 }
+
 .div-wrapper {
-  background-color: #fff;
-  width: 90%;
-  max-width: 600px;
-  overflow-y: auto;
-  border-radius: 5px;
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    overflow-y: auto;
+    border-radius: 5px;
 }
 
 li::marker {
-  color: #a646ee;
+    color: #a646ee;
 }
+
 .barra-de-pesquisa {
-  background-color: #f4f4f4;
-  border-radius: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
 }
+
 .barra-de-pesquisa p {
-  padding: 10px;
+    padding: 10px;
 }
+
 .roxo {
-  color: #a646ee;
+    color: #a646ee;
 }
+
 .cinza {
-  color: #757575;
+    color: #757575;
 }
+
 a {
-  color: #2d2d2d;
+    color: #2d2d2d;
 }
+
 hr {
-  color: #f4f4f4;
+    color: #f4f4f4;
 }
+
 .linha-divisoria {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 .linha-divisoria hr {
-  width: 540px;
-  margin-left: 10px;
+    width: 540px;
+    margin-left: 10px;
 }
