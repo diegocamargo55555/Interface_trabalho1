@@ -1,7 +1,8 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*.accent-purple{
@@ -11,60 +12,63 @@ body{
     color: #757575;
     color: #2d2d2d
 }*/
-main{
-    display: flex;
-    background-color: #757575;
-    width: 90%;
-    align-items: center;
-    justify-content: row;
-    flex-direction: column;
-
+main {
+  display: flex;
+  background-color: #757575;
+  width: 90%;
 }
-.flex-
-.flex-container{
-    
-}
-h1{
-    font-size: 40px;
-    margin: 0;
-    margin-top: 40px;
-}
-.div-wrapper{
-    background-color: #fff;
-    width: 90%;
-    max-width: 600px;
-    overflow-y: auto;
-    border-radius: 5px;
+.flex-box {
+  display: flex;
 }
 
-li::marker{
-    color: #a646ee;
+.flex-container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
 }
-.barra-de-pesquisa{
-    background-color: #f4f4f4;
-    border-radius: 5px;
+h1 {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 40px;
 }
-.barra-de-pesquisa p{
-    padding: 10px;
+.div-wrapper {
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  overflow-y: auto;
+  border-radius: 5px;
 }
-.roxo{
-    color: #a646ee;
+
+li::marker {
+  color: #a646ee;
 }
-.cinza{
-    color: #757575;
+.barra-de-pesquisa {
+  background-color: #f4f4f4;
+  border-radius: 5px;
 }
-a{
-    color: #2d2d2d;
+.barra-de-pesquisa p {
+  padding: 10px;
 }
-hr{
-    color: #f4f4f4;
+.roxo {
+  color: #a646ee;
 }
-.linha-divisoria{
-    display: inline-flex;
-    flex-direction: row;
-    align-items:center;
+.cinza {
+  color: #757575;
 }
-.linha-divisoria hr{
-    width: 540px;
-    margin-left: 10px;
+a {
+  color: #2d2d2d;
+}
+hr {
+  color: #f4f4f4;
+}
+.linha-divisoria {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linha-divisoria hr {
+  width: 540px;
+  margin-left: 10px;
 }
