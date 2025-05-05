@@ -2,10 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /*.accent-purple{
@@ -15,6 +11,19 @@ body{
     color: #757575;
     color: #2d2d2d
 }*/
+main{
+    display: flex;
+    background-color: #757575;
+    width: 90%;
+    align-items: center;
+    justify-content: row;
+    flex-direction: column;
+
+}
+.flex-
+.flex-container{
+    
+}
 h1{
     font-size: 40px;
     margin: 0;
