@@ -20,16 +20,14 @@ body {
     color: #757575;
     color: #2d2d2d
 }*/
-header{
+header {
     width: 51%;
     border: 1px solid purple;
     display: flex;
     flex-direction: row-reverse;
 }
 
-
-
-main{
+main {
     width: 50%;
     border: 1px solid black;
 }
@@ -57,10 +55,11 @@ li::marker {
     border-radius: 5px;
 }
 
-.barra-de-pesquisa input{
+.barra-de-pesquisa input {
     padding: 10px;
 }
-input{
+
+input {
     font-size: 1.2em;
     width: 90%;
     margin: 0;
@@ -69,6 +68,7 @@ input{
     border: none;
 
 }
+
 .roxo {
     color: #a646ee;
 }
@@ -96,12 +96,12 @@ hr {
     margin-left: 10px;
 }
 
-select{
+select {
     margin-bottom: 12px;
 }
 
-.linha_y{
-    border-left: 1px solid green;
+.linha_y {
+    border-left: 1px solid #f4f4f4;
     display: inline;
     height: 10px;
     margin: 0px 10px;
@@ -115,18 +115,19 @@ select{
     position: relative;
     display: inline-block;
     width: 30px;
-    height: 15px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
+    height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  /* The slider */
-  .slider {
+}
+
+/* The slider */
+.slider {
+    margin-top: 3px;
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -136,9 +137,9 @@ select{
     background-color: #2d2d2d;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 10px;
@@ -148,28 +149,27 @@ select{
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #ccc;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #ccc;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(15.5px);
     -ms-transform: translateX(15.5px);
     transform: translateX(15.5px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
+}
+
+/* Rounded sliders */
+.slider.round {
     border-radius: 34px;
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
-  
+}
