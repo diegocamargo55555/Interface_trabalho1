@@ -13,6 +13,11 @@ body {
 
 }
 
+@font-face{
+    font-family: Agatho_Black;
+    src: url(/Agatho\ Black.otf);
+}
+
 /*.accent-purple{
     color: #e9d0fa
     color: #a646ee
