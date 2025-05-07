@@ -96,7 +96,16 @@ hr {
     margin-left: 10px;
 }
 
+select{
+    margin-bottom: 12px;
+}
 
+.linha_y{
+    border-left: 1px solid green;
+    display: inline;
+    height: 10px;
+    margin: 0px 10px;
+}
 
 
 
