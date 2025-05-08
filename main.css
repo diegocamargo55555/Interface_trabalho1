@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Agatho_Black;
+    font-family: Goudi;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,11 +11,23 @@ body {
 
 }
 
-@font-face{
-    font-family: Agatho_Black;
-    src: url(/Agatho\ Black.otf);
+h1{
+    font-family: Agatho;
+}
+@font-face {
+    font-family: "Agatho";
+    src: url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.eot");
+    src: url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/671df56ae0e598ce82919b73365df9b5.svg#Agatho")format("svg");
 }
 
+@font-face {
+    font-family: Goudi;
+    src: url(goudi-olde-style/Goudi.TTF);
+}
 /*.accent-purple{
     color: #e9d0fa
     color: #a646ee
@@ -129,15 +141,6 @@ hr {
 }
 
 span{color: black;}
-
-
-
-.bola-roxa{
-    background-color: #e9d0fa;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-}
 
 
 
