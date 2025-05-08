@@ -18,7 +18,10 @@ form, select{
     font-weight: bold;
 }
 
-
+@font-face {
+    font-family: Gentium Book Basic;
+    src: url(gentium-book-basic/GenBkBasI.ttf);
+}
 @font-face {
     font-family: Agatho;
     src: url(agatho_black/Agatho_Regular.otf);
@@ -30,10 +33,14 @@ form, select{
     font-weight: bold;
 }
 
-
 @font-face {
     font-family: Goudi;
     src: url(goudi-olde-style/Goudi.TTF);
+}
+
+
+.definicoes{
+    font-family: Gentium Book Basic;
 }
 /*.accent-purple{
     color: #e9d0fa
