@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Agatho_Black;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +129,15 @@ hr {
 }
 
 span{color: black;}
+
+
+
+.bola-roxa{
+    background-color: #e9d0fa;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
 
 
 
