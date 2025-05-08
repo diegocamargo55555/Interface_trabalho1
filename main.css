@@ -42,6 +42,28 @@ form, select{
 .definicoes{
     font-family: Gentium Book Basic;
 }
+
+.bola-roxa {
+    background-color: #e9d0fa;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 3px;
+
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #b277ff;
+    rotate: 90deg;
+}
 /*.accent-purple{
     color: #e9d0fa
     color: #a646ee
