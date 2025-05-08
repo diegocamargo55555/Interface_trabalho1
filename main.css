@@ -143,6 +143,13 @@ hr {
 span{color: black;}
 
 
+.bola-roxa{
+    background-color: #e9d0fa;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
 
 
 /* The switch - the box around the slider */
