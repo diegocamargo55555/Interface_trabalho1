@@ -61,7 +61,11 @@ form, select{
     padding-left: 3px;
 
 }
-
+.titulo-botao{
+    display: flex;  
+    flex-direction: row;
+    justify-content:space-between;
+}
 .triangulo {
     width: 0;
     height: 0;
