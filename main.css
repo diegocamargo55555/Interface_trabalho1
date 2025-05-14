@@ -1,3 +1,10 @@
+:root{
+    --roxo: #a646ee;
+    --roxo-claro: #e9d0fa;
+    --cinza-claro: #757575;
+    --cinca-escuro: #2d2d2d;
+    --branco: #f4f4f4;
+}
 html{
     font-size: 62.5%;
 }
@@ -16,11 +23,15 @@ body {
 }
 
 li::marker{
-    color: #a646ee;
+    color: var(--roxo);
     font-size: 0.7em;
 }
 li{
     padding-left: 0.4em;
+    font-size: 2.2em;
+}
+.descricao-definicao{
+    padding-left: 2.4em;
 }
 p{
     font-size: 2em;
@@ -64,12 +75,8 @@ form, select{
     font-family: Gentium Book Basic;
 }
 
-li{
-    font-size: 2.2em;
-}
-
 .bola-roxa {
-    background-color: #e9d0fa;
+    background-color: var(--roxo-claro);
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -124,9 +131,7 @@ h1 {
 }
 .descr
 
-li::marker {
-    color: #a646ee;
-}
+
 article{
     padding: 1em 0;
 }
@@ -144,7 +149,7 @@ input {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: var(--branco);
     border: none;
     padding: 1em;
     border-radius: 50px;
@@ -157,22 +162,22 @@ input {
 
 .roxo {
     margin: 0;
-    color: #a646ee;
+    color: var(--roxo);
 }
 
 
 .cinza {
-    color: #757575;
+    color: var(--cinza-claro);
 }
 
 
 a {
-    color: #2d2d2d;
+    color: var(--cinca-escuro);
 }
 
 
 hr {
-    color: #f4f4f4;
+    color: var(--branco);
 }
 
 
@@ -198,7 +203,7 @@ hr {
 
 .selectdiv:after {
     content: '\07CD';
-    color: #a646ee;
+    color: var(--roxo);
     right: 2em;
     rotate: 180deg;
     top: 0.1em;
@@ -215,10 +220,7 @@ display: none;
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
-/* Add some styling */
 border: none;
-
-
 width: 10vh;
 height: 5vh;
 background-color: transparent;
@@ -226,7 +228,7 @@ background-color: transparent;
 
 
 .linha_y {
-border-left: 1px solid #f4f4f4;
+border-left: 1px solid var(--branco);
 display: inline;
 height: 1em;
 margin: 0 1em;
@@ -234,7 +236,7 @@ margin: 0 1em;
 
 
 .bola-roxa{
-    background-color: #e9d0fa;
+    background-color: var(--roxo-claro);
     width: 5em;
     height: 5em;
     border-radius: 100%;
