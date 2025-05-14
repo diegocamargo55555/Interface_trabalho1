@@ -15,8 +15,15 @@ body {
 
 }
 
-li,p{
-    font-size: 1.6em;
+li::marker{
+    color: #a646ee;
+    font-size: 0.7em;
+}
+li{
+    padding-left: 0.4em;
+}
+p{
+    font-size: 2em;
 }
 input, select, h1{
     font-family: Agatho;
@@ -27,7 +34,7 @@ form, select{
 
 @font-face {
     font-family: Gentium Book Basic;
-    src: url(gentium-book-basic/GenBkBasI.ttf);
+    src: url(gentium-book-basic/GenBkBasBI.ttf);
 }
 @font-face {
     font-family: Agatho;
@@ -55,6 +62,10 @@ form, select{
 
 .definicoes{
     font-family: Gentium Book Basic;
+}
+
+li{
+    font-size: 2.2em;
 }
 
 .bola-roxa {
@@ -108,15 +119,25 @@ main {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 6.5em;
     margin: 0;
 }
-
+.descr
 
 li::marker {
     color: #a646ee;
 }
+article{
+    padding: 1em 0;
+}
 
+.som{
+    font-size: 2.5em;
+}
+
+form{
+    margin-bottom: 2.5em;
+}
 
 input {
     font-size: 1.6em;
@@ -217,75 +238,4 @@ margin: 0 1em;
     width: 5em;
     height: 5em;
     border-radius: 100%;
-}
-
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 3em;
-    height: 1.8em;
-}
-
-
-/* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-
-/* The slider */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2d2d2d;
-    transition: .4s;
-}
-
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 1em;
-    width: 1em;
-    left: 2px;
-    bottom: 0.25em;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-
-input:checked+.slider {
-    background-color: #ccc;
-}
-
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #ccc;
-}
-
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(15.5px);
-    -ms-transform: translateX(15.5px);
-    transform: translateX(15.5px);
-}
-
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-
-.slider.round:before {
-    border-radius: 50%;
 }
