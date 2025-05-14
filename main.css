@@ -1,13 +1,12 @@
 :root{
+    font-size: 62.5%;
     --roxo: #a646ee;
     --roxo-claro: #e9d0fa;
     --cinza-claro: #757575;
     --cinca-escuro: #2d2d2d;
     --branco: #f4f4f4;
 }
-html{
-    font-size: 62.5%;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,8 +17,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1em;
-
-
+    width: 100%;
 }
 
 li::marker{
@@ -77,8 +75,8 @@ form, select{
 
 .bola-roxa {
     background-color: var(--roxo-claro);
-    width: 50px;
-    height: 50px;
+    width: 5em;
+    height: 5em;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -147,12 +145,12 @@ form{
 input {
     font-size: 1.6em;
     width: 100%;
-    margin: 0;
     box-sizing: border-box;
     background-color: var(--branco);
     border: none;
     padding: 1em;
-    border-radius: 50px;
+    border-radius: 5em;
+    
     background-image: url(lupa-roxa.png);
     background-position: 47vw 2.5vh;
     background-repeat: no-repeat;
@@ -234,10 +232,3 @@ height: 1em;
 margin: 0 1em;
 }
 
-
-.bola-roxa{
-    background-color: var(--roxo-claro);
-    width: 5em;
-    height: 5em;
-    border-radius: 100%;
-}
