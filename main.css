@@ -14,6 +14,7 @@ body {
 
 
 }
+
 li,p{
     font-size: 1.6em;
 }
@@ -38,12 +39,19 @@ form, select{
     src: url(agatho_black/Agatho_\ Bold.otf);
     font-weight: bold;
 }
-
 @font-face {
     font-family: Goudi;
+    src: url(goudy-old-style-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Goudi;
+    font-weight: 100;
     src: url(goudi-olde-style/Goudi.TTF);
 }
-
+.sinonimo-descricao{
+    font-weight: bold;
+}
 
 .definicoes{
     font-family: Gentium Book Basic;
@@ -86,7 +94,7 @@ header {
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content:space-between;
 }
 
 
@@ -95,7 +103,9 @@ main {
     width: 50%;
 }
 
-
+.sinomnimo-descricao{
+    font-weight: bold;
+}
 
 h1 {
     font-size: 4em;
@@ -229,7 +239,6 @@ margin: 0 1em;
 
 /* The slider */
 .slider {
-    margin-top: 0.3em;
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -237,7 +246,6 @@ margin: 0 1em;
     right: 0;
     bottom: 0;
     background-color: #2d2d2d;
-    -webkit-transition: .4s;
     transition: .4s;
 }
 
