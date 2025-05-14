@@ -82,9 +82,11 @@ form, select{
     color: #2d2d2d
 }*/
 header {
-    width: 51%;
+    padding: 2.5em;
+    width: 50%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: end;
 }
 
 
@@ -92,6 +94,7 @@ main {
     overflow: hidden;
     width: 50%;
 }
+
 
 
 h1 {
