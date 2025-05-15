@@ -3,8 +3,27 @@
     --roxo: #a646ee;
     --roxo-claro: #e9d0fa;
     --cinza-claro: #757575;
-    --cinca-escuro: #2d2d2d;
+    --cinza-escuro: #2d2d2d;
     --branco: #f4f4f4;
+}
+@font-face {
+    font-family: Gentium Book Basic;
+    src: url(gentium-book-basic/GenBkBasBI.ttf);
+}
+@font-face {
+    font-family: Agatho;
+    src: url(agatho_black/Agatho_Regular.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: Goudi;
+    src: url(goudy-old-style-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Goudi;
+    font-weight: 100;
+    src: url(goudi-olde-style/Goudi.TTF);
 }
 
 body {
@@ -19,20 +38,28 @@ body {
     gap: 1em;
     width: 100%;
 }
+a {
+    color: var(--cinza-escuro);
+}
+
+hr {
+    color: var(--branco);
+    width: 100vw;
+}
 
 li::marker{
     color: var(--roxo);
     font-size: 0.7em;
+    
 }
 li{
     padding-left: 0.4em;
     font-size: 2.2em;
-}
-.descricao-definicao{
-    padding-left: 2.4em;
+    color: black;
 }
 p{
     font-size: 2em;
+    color: #757575;
 }
 input, select, h1{
     font-family: Agatho;
@@ -41,36 +68,97 @@ form, select{
     font-weight: bold;
 }
 
-@font-face {
+.descricao-definicao{
+    padding-left: 2.4em;
+}
+h3{
     font-family: Gentium Book Basic;
-    src: url(gentium-book-basic/GenBkBasBI.ttf);
+    margin-right: 1em;
+    font-size: 2.2em;
 }
-@font-face {
-    font-family: Agatho;
-    src: url(agatho_black/Agatho_Regular.otf);
+
+header {
+    padding: 2.5em;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+main, footer{
+    overflow: hidden;
+    width: 50%;
+}
+
+h1 {
+    font-size: 6.5em;
+    margin: 0;
+}
+.titulo-botao{
+    display: flex;  
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+article{
+    padding: 1em 0;
+}
+
+h2{
+    font-size: 2.5em;
+    margin: 0;
+    color: var(--roxo);
     font-weight: 100;
 }
-@font-face {
-    font-family: Agatho;
-    src: url(agatho_black/Agatho_\ Bold.otf);
-    font-weight: bold;
+
+input {
+    font-size: 1.6em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--branco);
+    border: none;
+    padding: 1em;
+    border-radius: 5em;
+    background-image: url(lupa-roxa.png);
+    background-position: 47vw 2.5vh;
+    background-repeat: no-repeat;
+    background-size: 2%;
+    margin-bottom: 2.5em;
 }
-@font-face {
-    font-family: Goudi;
-    src: url(goudy-old-style-bold.ttf);
-    font-weight: bold;
-}
-@font-face {
-    font-family: Goudi;
-    font-weight: 100;
-    src: url(goudi-olde-style/Goudi.TTF);
-}
-.sinonimo-descricao{
+
+.roxo {
+    margin: 0;
+    color: var(--roxo);
     font-weight: bold;
 }
 
-.definicoes{
-    font-family: Gentium Book Basic;
+.btn{
+    border-radius: 5em;
+    background-color: var(--cinza-claro);
+    height: 2.5vh;
+    width: 2.2vw;
+    border: none;
+    padding-left: .2em;
+
+}
+.bola-branca{
+    height: 0.9em;
+    width: 0.9em;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 0em;
+}
+
+.linha-divisoria {
+    display: inline-flex;
+    align-items: center;
+}
+
+.linha_y {
+border-left: 1px solid var(--branco);
+display: inline;
+height: 1em;
+margin: 0 1em;
 }
 
 .bola-roxa {
@@ -85,11 +173,6 @@ form, select{
     padding-left: 3px;
 
 }
-.titulo-botao{
-    display: flex;  
-    flex-direction: row;
-    justify-content:space-between;
-}
 .triangulo {
     width: 0;
     height: 0;
@@ -98,99 +181,11 @@ form, select{
     border-bottom: 16px solid #b277ff;
     rotate: 90deg;
 }
-/*.accent-purple{
-    color: #e9d0fa
-    color: #a646ee
-    color: #f4f4f4
-    color: #757575;
-    color: #2d2d2d
-}*/
-header {
-    padding: 2.5em;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
 
 
-main {
-    overflow: hidden;
-    width: 50%;
-}
-
-.sinomnimo-descricao{
-    font-weight: bold;
-}
-
-h1 {
-    font-size: 6.5em;
-    margin: 0;
-}
-.descr
 
 
-article{
-    padding: 1em 0;
-}
 
-.som{
-    font-size: 2.5em;
-}
-
-form{
-    margin-bottom: 2.5em;
-}
-
-input {
-    font-size: 1.6em;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: var(--branco);
-    border: none;
-    padding: 1em;
-    border-radius: 5em;
-    
-    background-image: url(lupa-roxa.png);
-    background-position: 47vw 2.5vh;
-    background-repeat: no-repeat;
-    background-size: 2%;
-}
-
-
-.roxo {
-    margin: 0;
-    color: var(--roxo);
-}
-
-
-.cinza {
-    color: var(--cinza-claro);
-}
-
-
-a {
-    color: var(--cinca-escuro);
-}
-
-
-hr {
-    color: var(--branco);
-}
-
-
-.linha-divisoria {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-.linha-divisoria hr {
-    overflow: hidden;
-    width: 47vw;
-    margin-left: 1em;
-}
 
 
 .selectdiv {
@@ -223,12 +218,3 @@ width: 10vh;
 height: 5vh;
 background-color: transparent;
 }
-
-
-.linha_y {
-border-left: 1px solid var(--branco);
-display: inline;
-height: 1em;
-margin: 0 1em;
-}
-
