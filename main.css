@@ -7,15 +7,19 @@
     --branco: #f4f4f4;
     --branco_escuro: #ebebeb;
 }
-@font-face {
-    font-family: Gentium Book Basic;
-    src: url(gentium-book-basic/GenBkBasBI.ttf);
-}
+/*A fonte utilizada no site originalmente era a Agatho Black! Entretanto, a versão gratuita deta fonte não possui caracteres especiais
+Devido a isso, utilizamos Agatho apenas em partes do texto onde caracteres especiais não eram necessários
+No restante, utilizamos a fonte Gentium Book Basic, uma fonte similhar a Agatho Black!*/
 @font-face {
     font-family: Agatho;
     src: url(agatho_black/Agatho_Regular.otf);
     font-weight: 100;
 }
+@font-face {
+    font-family: Gentium Book Basic;
+    src: url(gentium-book-basic/GenBkBasBI.ttf);
+}
+
 @font-face {
     font-family: Goudi;
     src: url(goudy-old-style-bold.ttf);
