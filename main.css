@@ -103,8 +103,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin-top: 2.4em;
-    margin-bottom: 3.5em;
+    margin-top: 3.4em;
+    margin-bottom: 2.6em;
 }
 
 main, footer, header{
@@ -113,7 +113,7 @@ main, footer, header{
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 8.2em;
     margin: 0;
     margin-bottom: 0.1em;
 }
@@ -150,7 +150,7 @@ input {
     height: 3.2em;
     border-radius: .9em;
     background-image: url(lupa.png);
-    background-position: 50vw 2.8vh;
+    background-position: 47.5vw 2.6vh;
     background-repeat: no-repeat;
     background-size: 2.5%;
     margin-bottom:3em;
