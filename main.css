@@ -21,20 +21,23 @@ No restante, utilizamos a fonte Gentium Book Basic, uma fonte similhar a Agatho 
 }
 
 @font-face {
-    font-family: Goudi;
+    font-family: Agatho;
     src: url(goudy-old-style-bold.ttf);
     font-weight: bold;
+    unicode-range: U+28-3A ;
 }
 @font-face {
-    font-family: Goudi;
+    font-family: Agatho;
     font-weight: 100;
     src: url(goudi-olde-style/Goudi.TTF);
+    unicode-range: U+28-3A ;
+
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Goudi;
+    font-family: Agatho;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +46,8 @@ body {
     gap: .01em;
     width: 100%;
 }
+
+
 a {
     color: var(--cinza-escuro);
 }
@@ -77,6 +82,9 @@ main p{
     font-size: 2.5em;
     color: var(--cinza);
 }
+.especial_char{
+    font-family: Goudi;
+}
 input, h1{
     font-family: Agatho;
     font-weight: bold;
@@ -84,7 +92,7 @@ input, h1{
 
 .descricao-definicao{
     margin: 0;
-    padding-left: 2em;
+    padding-left: 1.6em;
     margin-bottom: 2em;
 
 }
