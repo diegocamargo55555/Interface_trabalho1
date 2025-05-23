@@ -7,17 +7,16 @@
     --cinza-escuro: #2d2d2d;
     --branco: #f4f4f4;
 }
-/*A fonte utilizada no site originalmente era a Agatho Black! Entretanto, a versão gratuita deta fonte não possui caracteres especiais
-Devido a isso, utilizamos Agatho apenas em partes do texto onde caracteres especiais não eram necessários
-No restante, utilizamos a fonte Gentium Book Basic, uma fonte similhar a Agatho Black!*/
+@font-face {
+    font-family: Gentium Book Basic;
+    src: url(gentium-book-basic/GenBkBasBI.ttf);
+}
+/*no original foi usado apenas agatho black e Gentium Book Basic, mas a versão gratuita do agatho black não continha
+caracters especias, então para eles utilizamos o goudy-old-style*/
 @font-face {
     font-family: Agatho;
     src: url(agatho_black/Agatho_Regular.otf);
     font-weight: 100;
-}
-@font-face {
-    font-family: Gentium Book Basic;
-    src: url(gentium-book-basic/GenBkBasBI.ttf);
 }
 
 @font-face {
@@ -31,7 +30,6 @@ No restante, utilizamos a fonte Gentium Book Basic, uma fonte similhar a Agatho 
     font-weight: 100;
     src: url(goudi-olde-style/Goudi.TTF);
     unicode-range: U+28-3A ;
-
 }
 
 body {
@@ -81,9 +79,6 @@ header p{
 main p{
     font-size: 2.5em;
     color: var(--cinza);
-}
-.especial_char{
-    font-family: Goudi;
 }
 input, h1{
     font-family: Agatho;
