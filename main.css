@@ -153,7 +153,7 @@ input {
     height: 3.2em;
     border-radius: .9em;
     background-image: url(lupa.png);
-    background-position: 47.5vw 2.6vh;
+    background-position: 36em 1em;
     background-repeat: no-repeat;
     background-size: 2.5%;
     margin-bottom:3em;
@@ -162,7 +162,6 @@ input {
 .livro{
     width: 4.5em;
     height: 4.5em;
-
 }
 
 .termos-em-roxo {
@@ -213,7 +212,7 @@ input {
 .linha_y {
 border-left: 1px solid var(--cinza-claro);
 display: inline;
-height: 2em;
+height: 3em;
 margin: 0 1em;
 }
 
